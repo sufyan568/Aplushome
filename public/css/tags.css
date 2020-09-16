@@ -1,0 +1,66 @@
+/*
+	Copywrite Square Bracket LLC - Sean Clark 2012-3012
+	http://square-bracket.com 	
+	http://connect.ai	
+	http://youtube.com/optikalefxx
+*/
+.tags-wrapper {
+	background:white;
+	overflow:hidden;
+	width:150%;
+    border: 1px solid #cccccc;
+    
+     }
+.tags-wrapper ul {
+	margin:0px;
+	padding:0px;
+}
+.tags-wrapper li {
+	float:left;
+}
+.tags-wrapper li.tag {
+    font-family: proxima-nova, sans-serif; 
+	font-size:12px;
+	border-radius:3px;
+	list-style: none;
+	background-clip: padding-box;
+	border: 1px solid rgb(170, 170, 170);
+	line-height: 13px;
+	padding: 1px 3px 3px 5px;
+	margin: 3px 0 3px 5px;
+}
+.tags-wrapper li a {
+	text-decoration:none;
+	color:white;
+	padding:2px;
+	display:inline-block;
+	margin-left:6px;
+	color: rgb(51, 51, 51);
+}
+.tags-wrapper li a:hover {
+	color:#222;
+}
+.tags-wrapper input {
+	display:none;
+}
+.tags-wrapper li.tags-input {
+	white-space: nowrap;
+	margin: 0;
+	padding: 0;
+}
+.tags-wrapper li input {
+	display:block;
+	background:trasparent;
+	outline:none;
+	border:none;
+	font-size:11px;
+	height: auto;
+	width:100%;
+	margin: 4px;
+
+}
+.tags-wrapper .autofill-bg {
+	position:relative;
+    background-color :#FF4B7D !important ;
+	top:4px;
+}
